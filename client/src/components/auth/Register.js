@@ -44,7 +44,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             placeholder="Name"
             name="name"
             value={name}
-            name="name"
             onChange={(e) => onChange(e)}
             required
           />
