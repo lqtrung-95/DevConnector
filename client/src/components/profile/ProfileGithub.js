@@ -7,7 +7,7 @@ import Spinner from "../layout/Spinner";
 const ProfileGithub = ({ username, getGithubRepos, repos }) => {
   useEffect(() => {
     getGithubRepos(username);
-  }, [getGithubRepos]);
+  }, [getGithubRepos, username]);
 
   useEffect(() => {
     // Update the document title using the browser API
